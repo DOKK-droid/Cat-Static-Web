@@ -12,7 +12,7 @@ serverHttp.on('listening', () => console.info(`Notes App running at http://${pro
 app.use(express.static('./public'));
 
 app.get('/api/get-uuid', function (req, res) {
-    res.send("id");
+    res.send("Seccion en Mantenimiento.");
 });
 
 // 404
